@@ -1,6 +1,6 @@
 //traer h2
-let letras = document.getElementById("letras");
-let numeros = document.getElementById("numeros");
+let letras = document.getElementById("lyrics");
+let numeros = document.getElementById("numbers");
 
 //Traer Botones del index por id
 let a1 = document.getElementById("a1");
@@ -46,7 +46,7 @@ const imprimeC3 = () => {
         if (letras.innerHTML == "ABCDEFGHIJ" && numeros.innerHTML == "12") {
             numeros.innerHTML += "3";
         }else {
-            alert("seguir el orden ascendente :)");
+            alert("next to rigth :)");
         }
     }
 };
